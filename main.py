@@ -79,7 +79,7 @@ def main() -> None:
 
         # Use inquirer to select query action
         action_choice = inquirer.list_input(
-            "Select the query action:", choices=["hold", "release", "bb_release"]
+            "Select the query action", choices=["hold", "release", "bb_release"]
         )
 
         # Generate the query and write it to the output file
