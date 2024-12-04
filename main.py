@@ -23,7 +23,7 @@ and AgreementId IN (
 )
 ;""",
     "bb_release": """UPDATE `logicbroker-fulfillment`.order
-SET DateToSubmitPo = DATE(DateToSubmitPo)
+SET DateToSubmitPo = NOW()
 WHERE VendorId = '58b24308bb25690011a6a49a'
 AND AgreementId IN (
     {data}
