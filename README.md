@@ -14,11 +14,13 @@ If you have python installed you're good to go.
 
 ### How to use
 
-Inside the src folder, paste in the values you need into input-values.txt
+Paste the agreement ids, or the calypso links inside the input-values.txt (I like using agreementIds better...)
 
-When Risk asks you to hold a bunch of orders, you have either the calypso links or the ids.
+Run the main.py file in the src directory. You will be greeted with a list of options.
 
-Paste their request into the "risk-values.txt" file as is.
+- `hold` and `release` (options 1 and 2) are not used anymore as CS should be able to accomplish these but I left them in just in case.
+- `bb_release` is Best Buy release for the Risk & AppSupport channels.
+- `repeat_customer_release` is for the hourly customer release email reports.
 
 Run the program and select the values.
 
